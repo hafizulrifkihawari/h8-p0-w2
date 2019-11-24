@@ -6,6 +6,8 @@ while (rows1 > 0){
     rows1--;
 }
 
+console.log();
+
 var rows2 = 5; // input the number of rows
 
 // do loops to display asterisks in the console.

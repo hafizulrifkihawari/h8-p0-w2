@@ -1,12 +1,15 @@
 function xo(str) {
     // you can only write your code here!
     let x = 0;
-    for(i = 0; i < str.length; i++){
+    let o = 0;
+    for(var i = 0; i < str.length; i++){
         if (str[i] === "x"){
             x++
+        } else if (str[i] === "o") {
+            o++
         }
     }
-    if (x*2 == str.length){
+    if (x === o){
         return true;
     }
     return false;
